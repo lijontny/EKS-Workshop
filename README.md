@@ -5,7 +5,6 @@
 3. Sign in to the [AWS Cloud9 console](https://console.aws.amazon.com/cloud9/). 
 4. Launch your Cloud9 IDE, Follow instructions [here](https://catalog.us-east-1.prod.workshops.aws/workshops/ed1a8610-c721-43be-b8e7-0f300f74684e/en-US/setup/workshop-studio/launching-cloud9)
 5. Update Cloud9 IAM setup for the workshop, Follow instructions [here](https://batch.hpcworkshops.com/02-preparation/06-iam-roles.html)
-6. Create an SSH-Key, Follow instructions [here](https://catalog.workshops.aws/containers/en-US/setup/createsshkey)
 ### Deploy EKS Cluster
 
 1. export AWS_REGION=eu-west-1
