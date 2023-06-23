@@ -8,9 +8,11 @@
 6. Create an SSH-Key, Follow instructions [here](https://catalog.workshops.aws/containers/en-US/setup/createsshkey)
 ### Deploy EKS Cluster
 
-1. [Prerequisites](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/launch-eks/prerequisites)
-2. Launch an Amazon EKS cluster, Follow instructions [here](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/launch-eks/launcheks)
-3. Test the Cluster, [Link](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/launch-eks/test)
+1. export AWS_REGION=eu-west-1
+2. [Prerequisites](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/launch-eks/prerequisites)
+3. Create an SSH-Key, Follow instructions [here](https://catalog.workshops.aws/containers/en-US/setup/createsshkey)
+4. Launch an Amazon EKS cluster, Follow instructions [here](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/launch-eks/launcheks)
+5. Test the Cluster, [Link](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/launch-eks/test)
 
 ### Preparing EKS for Application deployment
 1. Provision AWS Load Balancer Controller - Follow instructions [here](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/eks/setup-environment/setup-ingress)
